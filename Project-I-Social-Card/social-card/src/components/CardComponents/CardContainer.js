@@ -6,12 +6,10 @@ import CardContent from './CardContent';
 
 const CardContainer = () => {
   return (
-    <a href="https://www.reactjs.org">
-      <div>
-        <CardBanner />
-        <CardContent />
-      </div>
-    </a>
+    <div className="card-container">
+      <CardBanner />
+      <CardContent />
+    </div>
   );
 };
 

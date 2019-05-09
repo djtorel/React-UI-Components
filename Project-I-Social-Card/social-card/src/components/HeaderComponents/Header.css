@@ -1,1 +1,36 @@
 /* All styles for your header Components live here */
+.header-container {
+  display: flex;
+  /* height: 60px; */
+  /* padding: 10px */
+}
+.header-image-container {
+  height: 50px;
+  padding: 20px;
+}
+.header-image-thumbnail {
+  height: 100%;
+}
+
+.header-content-container {
+  display: flex;
+  flex-direction: column;
+  padding: 15px 0;
+  width: 93%;
+  margin: 0 auto 0 auto;
+}
+
+.header-title-section {
+  display: flex;
+  flex-direction: row;
+}
+
+.header-title {
+  font-weight:900;
+  margin-right: 10px;
+  margin-bottom: 15px;
+}
+
+.header-sub-title {
+  color: gray;
+}
