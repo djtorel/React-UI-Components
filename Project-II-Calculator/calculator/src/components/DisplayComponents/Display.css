@@ -1,0 +1,13 @@
+.calculator-display {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 50px;
+  background-color: #3e3e3e;
+  color: #dadada;
+  padding: 10px;
+}
