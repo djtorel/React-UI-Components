@@ -1,5 +1,17 @@
+button {
+  border: 1px solid #1e1d22;
+}
 .calculator-container {
   display: grid;
   grid-template-columns: 100px 100px 100px 100px;
-  grid-template-rows: 100px 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px 100px 100px 100px;
+  border: 1px solid #1e1d22;
+  width: 400px;
+}
+
+.span-1 {
+  grid-column: span 1;
+}
+.span-3 {
+  grid-column: span 3;
 }
