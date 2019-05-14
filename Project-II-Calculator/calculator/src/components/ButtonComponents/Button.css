@@ -1,0 +1,17 @@
+.action-button {
+  font-size: 50px;
+  background-color: #dadada;
+  color: #3e3e3e;
+}
+
+.white-button {
+  font-size: 50px;
+  background-color: #dadada;
+  color: #3e3e3e;
+}
+
+.red-button {
+  font-size: 50px;
+  background-color: rgb(145, 6, 6);
+  color: #dadada;
+}
